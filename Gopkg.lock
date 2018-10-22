@@ -3,13 +3,19 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:5a8a35c2323f64306651615b855edc31c05c99be7e5d6fb4f3716581ba4e0adf"
   name = "github.com/skip2/go-qrcode"
-  packages = [".","bitset","reedsolomon"]
-  revision = "695fc75a09738f9be56aaa3aecfd7dac28e66b63"
+  packages = [
+    ".",
+    "bitset",
+    "reedsolomon",
+  ]
+  pruneopts = ""
+  revision = "cf5f9fa2f0d847edb8e038db7ed975e239095e1a"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "9094a24c5d5f0ca0993e22a6e3af8cc6a50b6d87628ae6f69f433da34c8721ae"
+  input-imports = ["github.com/skip2/go-qrcode"]
   solver-name = "gps-cdcl"
   solver-version = 1
