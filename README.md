@@ -35,5 +35,8 @@ and you will get the `quirky` executable inside `$GOPATH/bin`.
 
 ## Change log
 
+### 1.0.1 - 2018-10-22
+* Updated dependencies
+
 ### 1.0.0 - 2016-06-09
 * Initial release
