@@ -35,6 +35,10 @@ and you will get the `quirky` executable inside `$GOPATH/bin`.
 
 ## Change log
 
+### 1.0.2 - 2021-05-23
+* Switch dependencies to use go modules
+* Update all dependencies
+
 ### 1.0.1 - 2018-10-22
 * Updated dependencies
 
